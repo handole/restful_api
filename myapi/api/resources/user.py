@@ -15,7 +15,6 @@ class UserSchema(ma.ModelSchema):
         model = User
         sqla_session = db.session
 
-
 class UserResource(Resource):
     """Single object resource
     """
